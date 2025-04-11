@@ -8,7 +8,7 @@ const TARGET_HOST = process.env.TARGET_HOST;
 const TARGET_PORT = process.env.TARGET_PORT;
 const INTERVAL_SECONDS = process.env.INTERVAL_SECONDS;
 const IMEI = process.env.IMEI;
-const FilePath='./new.txt';
+const FilePath='./activitynew.txt';
 // Sleep utility
 function sleep(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
