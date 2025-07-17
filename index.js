@@ -3,7 +3,7 @@ const net = require('net');
 const moment = require('moment-timezone');
 const { parentPort, workerData } = require('worker_threads');
 
-// Read from environment variable
+// Read from environment variable version2
 const TARGET_HOST = process.env.TARGET_HOST;
 const TARGET_PORT = process.env.TARGET_PORT;
 const INTERVAL_SECONDS = process.env.INTERVAL_SECONDS;
